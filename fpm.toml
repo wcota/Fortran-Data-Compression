@@ -1,0 +1,16 @@
+name = "Fortran-Data-Compression"
+version = "1.0.0"
+license = "license"
+author = "Adam K. Sokół and Wesley Cota"
+[build]
+auto-executables = true
+auto-tests = true
+auto-examples = true
+module-naming = false
+[install]
+library = false
+test = false
+[fortran]
+implicit-typing = false
+implicit-external = false
+source-form = "free"
