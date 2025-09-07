@@ -1,14 +1,13 @@
 name = "Fortran-Data-Compression"
 version = "1.0.0"
-license = "license"
-author = "Adam K. Sokół and Wesley Cota"
+author = "Adam K. Sokół, Wesley Cota"
 [build]
 auto-executables = true
 auto-tests = true
 auto-examples = true
 module-naming = false
 [install]
-library = false
+library = true
 test = false
 [fortran]
 implicit-typing = false
