@@ -1,5 +1,6 @@
 module pipe_mod
-    !> Based on https://github.com/SokolAK/Fortran-Data-Compression
+    !> Based on <https://github.com/SokolAK/Fortran-Data-Compression> by Adam K. Sokół
+    !> Adapted by Wesley Cota <https://wcota.me/>
     use iso_fortran_env, only: i4 => int32
     implicit none
     private
